@@ -30,6 +30,10 @@
     @apply flex items-center justify-between basis-1/2 px-4 py-3 mr-3 bg-gray-500 bg-opacity-10 rounded-lg border border-gray-500 border-opacity-25 hover:border-rose-700 dark:hover:border-amber-50 custom-transition;
   }
 
+  .glass-bg {
+    @apply px-4 py-3  bg-gray-500 bg-opacity-10 rounded-lg border border-gray-500 border-opacity-25 hover:border-rose-700 dark:hover:border-amber-50 custom-transition;
+  }
+
   .workflow-title {
     @apply text-neutral-900 dark:text-white text-xl font-bold;
   }
@@ -47,7 +51,7 @@
   }
 
   .price-option {
-    @apply text-gray-500 dark:text-gray-400 text-opacity-90 text-base font-medium my-2;
+    @apply text-gray-500 dark:text-white text-opacity-90 text-base my-2;
   }
 
   .price-list-style {
@@ -64,6 +68,10 @@
 
   .social {
     @apply inline-block mx-2 ml-0 fill-neutral-800 dark:fill-white hover:fill-neutral-400;
+  }
+
+  .custom-list-decimal {
+    @apply list-decimal ml-4;
   }
 }
 @layer utilities {
